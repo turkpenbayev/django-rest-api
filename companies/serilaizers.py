@@ -6,5 +6,5 @@ class StockSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Stock
-        # fields = ('ticker', 'volume')
-        fields = '__all__'
+        fields = ('ticker', 'volume')
+        # fields = '__all__'
